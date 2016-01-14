@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		416CF8001C3E4AF4005A218E /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CF7FF1C3E4AF4005A218E /* Handler.m */; };
+		416CF8031C3E4B20005A218E /* Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CF8021C3E4B20005A218E /* Storage.m */; };
+		416CF8061C3E4E79005A218E /* Opcion.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CF8051C3E4E79005A218E /* Opcion.m */; };
+		416CF80C1C3E856D005A218E /* TableViewDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CF80B1C3E856D005A218E /* TableViewDatasource.m */; };
+		416CF8101C3E85A2005A218E /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CF80E1C3E85A2005A218E /* TableViewCell.m */; };
+		416CF8111C3E85A2005A218E /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 416CF80F1C3E85A2005A218E /* TableViewCell.xib */; };
 		4186D9081C3D842000269725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186D9071C3D842000269725 /* main.m */; };
 		4186D90B1C3D842000269725 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186D90A1C3D842000269725 /* AppDelegate.m */; };
 		4186D90E1C3D842000269725 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186D90D1C3D842000269725 /* ViewController.m */; };
@@ -15,6 +21,8 @@
 		4186D9161C3D842000269725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4186D9141C3D842000269725 /* LaunchScreen.storyboard */; };
 		4186D9211C3D842000269725 /* LightViewEFCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186D9201C3D842000269725 /* LightViewEFCTests.m */; };
 		4186D92C1C3D842000269725 /* LightViewEFCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186D92B1C3D842000269725 /* LightViewEFCUITests.m */; };
+		4186D93D1C3D873A00269725 /* ViewMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186D93C1C3D873A00269725 /* ViewMain.m */; };
+		4186D93F1C3D87CD00269725 /* ViewMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4186D93E1C3D87CD00269725 /* ViewMain.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		416CF7FE1C3E4AF4005A218E /* Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Handler.h; sourceTree = "<group>"; };
+		416CF7FF1C3E4AF4005A218E /* Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Handler.m; sourceTree = "<group>"; };
+		416CF8011C3E4B20005A218E /* Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
+		416CF8021C3E4B20005A218E /* Storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Storage.m; sourceTree = "<group>"; };
+		416CF8041C3E4E79005A218E /* Opcion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Opcion.h; sourceTree = "<group>"; };
+		416CF8051C3E4E79005A218E /* Opcion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Opcion.m; sourceTree = "<group>"; };
+		416CF80A1C3E856D005A218E /* TableViewDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDatasource.h; sourceTree = "<group>"; };
+		416CF80B1C3E856D005A218E /* TableViewDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDatasource.m; sourceTree = "<group>"; };
+		416CF80D1C3E85A2005A218E /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		416CF80E1C3E85A2005A218E /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		416CF80F1C3E85A2005A218E /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		417729771C40DF5900C07DD1 /* Cabecera.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cabecera.pch; sourceTree = "<group>"; };
 		4186D9031C3D842000269725 /* LightViewEFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightViewEFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4186D9071C3D842000269725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4186D9091C3D842000269725 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +71,9 @@
 		4186D9271C3D842000269725 /* LightViewEFCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightViewEFCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4186D92B1C3D842000269725 /* LightViewEFCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightViewEFCUITests.m; sourceTree = "<group>"; };
 		4186D92D1C3D842000269725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4186D93B1C3D873A00269725 /* ViewMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMain.h; sourceTree = "<group>"; };
+		4186D93C1C3D873A00269725 /* ViewMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewMain.m; sourceTree = "<group>"; };
+		4186D93E1C3D87CD00269725 /* ViewMain.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewMain.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +101,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		416CF8071C3E4E80005A218E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				416CF8041C3E4E79005A218E /* Opcion.h */,
+				416CF8051C3E4E79005A218E /* Opcion.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		416CF8081C3E8504005A218E /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+				416CF80A1C3E856D005A218E /* TableViewDatasource.h */,
+				416CF80B1C3E856D005A218E /* TableViewDatasource.m */,
+			);
+			name = datasource;
+			sourceTree = "<group>";
+		};
+		416CF8091C3E8528005A218E /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				416CF80D1C3E85A2005A218E /* TableViewCell.h */,
+				416CF80E1C3E85A2005A218E /* TableViewCell.m */,
+				416CF80F1C3E85A2005A218E /* TableViewCell.xib */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
 		4186D8FA1C3D842000269725 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +152,13 @@
 		4186D9051C3D842000269725 /* LightViewEFC */ = {
 			isa = PBXGroup;
 			children = (
+				41AC6A951C4640BB00D8C553 /* handlers */,
+				41AC6A941C46406A00D8C553 /* storage */,
+				416CF8071C3E4E80005A218E /* model */,
+				4186D93A1C3D867700269725 /* view */,
+				4186D9391C3D861C00269725 /* viewcontroller */,
 				4186D9091C3D842000269725 /* AppDelegate.h */,
 				4186D90A1C3D842000269725 /* AppDelegate.m */,
-				4186D90C1C3D842000269725 /* ViewController.h */,
-				4186D90D1C3D842000269725 /* ViewController.m */,
 				4186D90F1C3D842000269725 /* Main.storyboard */,
 				4186D9121C3D842000269725 /* Assets.xcassets */,
 				4186D9141C3D842000269725 /* LaunchScreen.storyboard */,
@@ -118,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				4186D9071C3D842000269725 /* main.m */,
+				417729771C40DF5900C07DD1 /* Cabecera.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +193,45 @@
 				4186D92D1C3D842000269725 /* Info.plist */,
 			);
 			path = LightViewEFCUITests;
+			sourceTree = "<group>";
+		};
+		4186D9391C3D861C00269725 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				4186D90C1C3D842000269725 /* ViewController.h */,
+				4186D90D1C3D842000269725 /* ViewController.m */,
+			);
+			name = viewcontroller;
+			sourceTree = "<group>";
+		};
+		4186D93A1C3D867700269725 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				416CF8091C3E8528005A218E /* cell */,
+				416CF8081C3E8504005A218E /* datasource */,
+				4186D93B1C3D873A00269725 /* ViewMain.h */,
+				4186D93C1C3D873A00269725 /* ViewMain.m */,
+				4186D93E1C3D87CD00269725 /* ViewMain.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		41AC6A941C46406A00D8C553 /* storage */ = {
+			isa = PBXGroup;
+			children = (
+				416CF8011C3E4B20005A218E /* Storage.h */,
+				416CF8021C3E4B20005A218E /* Storage.m */,
+			);
+			name = storage;
+			sourceTree = "<group>";
+		};
+		41AC6A951C4640BB00D8C553 /* handlers */ = {
+			isa = PBXGroup;
+			children = (
+				416CF7FE1C3E4AF4005A218E /* Handler.h */,
+				416CF7FF1C3E4AF4005A218E /* Handler.m */,
+			);
+			name = handlers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +338,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4186D9161C3D842000269725 /* LaunchScreen.storyboard in Resources */,
+				416CF8111C3E85A2005A218E /* TableViewCell.xib in Resources */,
+				4186D93F1C3D87CD00269725 /* ViewMain.xib in Resources */,
 				4186D9131C3D842000269725 /* Assets.xcassets in Resources */,
 				4186D9111C3D842000269725 /* Main.storyboard in Resources */,
 			);
@@ -271,8 +367,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4186D90E1C3D842000269725 /* ViewController.m in Sources */,
+				4186D93D1C3D873A00269725 /* ViewMain.m in Sources */,
 				4186D90B1C3D842000269725 /* AppDelegate.m in Sources */,
+				416CF8061C3E4E79005A218E /* Opcion.m in Sources */,
+				416CF8101C3E85A2005A218E /* TableViewCell.m in Sources */,
 				4186D9081C3D842000269725 /* main.m in Sources */,
+				416CF8001C3E4AF4005A218E /* Handler.m in Sources */,
+				416CF80C1C3E856D005A218E /* TableViewDatasource.m in Sources */,
+				416CF8031C3E4B20005A218E /* Storage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = LightViewEFC/Cabecera.pch;
 				INFOPLIST_FILE = LightViewEFC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.efc.LightViewEFC;
@@ -422,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = LightViewEFC/Cabecera.pch;
 				INFOPLIST_FILE = LightViewEFC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.efc.LightViewEFC;
@@ -496,6 +600,7 @@
 				4186D9321C3D842000269725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4186D9331C3D842000269725 /* Build configuration list for PBXNativeTarget "LightViewEFCTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +609,7 @@
 				4186D9351C3D842000269725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4186D9361C3D842000269725 /* Build configuration list for PBXNativeTarget "LightViewEFCUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +618,7 @@
 				4186D9381C3D842000269725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

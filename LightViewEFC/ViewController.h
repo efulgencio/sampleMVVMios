@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class Handler;
+@class Storage;
 
+@interface ViewController : UIViewController 
+
+
+- (id)initWithHandler:(Handler *)handler storage:(Storage *)storage;
 
 @end
 
